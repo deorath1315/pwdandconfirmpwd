@@ -1,0 +1,27 @@
+{
+  "name": "pwdandconfirmpwd",
+  "version": "1.0.0",
+  "description": "compare pwd and confirm pwd",
+  "main": "lib/index.js",
+  "types": "lib/indix.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deorath1315/pwdandconfirmpwd.git"
+  },
+  "keywords": [],
+  "author": "Satish Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deorath1315/pwdandconfirmpwd/issues"
+  },
+  "homepage": "https://github.com/deorath1315/pwdandconfirmpwd#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "files": ["lib/**/*"]
+}
